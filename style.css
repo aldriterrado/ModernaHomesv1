@@ -76,12 +76,6 @@ body{
     background-color: #1b2145;
 }
 
-.scroll-explore p{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    font-size: 14px;
-}
 
 .about-content h1{
     font-size: 48px;
@@ -111,9 +105,11 @@ body{
     border-radius: 20px;
     background-color: #68CAFB;
     transition: 0.4s ease;
+    position: relative;
 }
 
 .about-learnmore:hover{
+    width: 200px;
     background-color: #1B2145;
 }
 
