@@ -30,14 +30,6 @@ a {
    
 }
 
-.available-project p{
-    background-color: #68CAFB;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    font-size: 16px !important;
-}
 
 .hero-title-container h1{
     font-size: 64px;
@@ -147,6 +139,12 @@ a {
     width: 300px;
     border-radius: 20px;
     background-color: #68CAFB;
+    transition: 0.4s ease;
+}
+
+.project-btn:hover{
+    width: 320px;
+    background-color: #1B2145;
 }
 
 
@@ -165,7 +163,7 @@ a {
 
   .project-container{
     width: 100%;
-    height: 350px;
+    height: 400px;
     background-color: #1B2145;
   }
 
@@ -200,5 +198,23 @@ a {
     background-color: #68CAFB;
     bottom: 0;
     position: absolute;
+  }
+
+  .solution-label{
+    position: relative;
+  }
+
+  .solution-label::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #68CAFB;
+    bottom: 0;
+    position: absolute;
+    transition: 0.4s ease;
+  }
+
+  .solution-label:hover::before{
+    width: 100%;
   }
 
