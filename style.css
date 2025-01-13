@@ -12,6 +12,10 @@ body{
     height: 120px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hero-container{
     height: 900px;
     background-image: url(assets/heroImg.jpeg);
@@ -27,8 +31,7 @@ body{
 }
 
 .available-project p{
-    background-color: rgba(169, 169, 169, 0.773);
-    border-radius: 50px;
+    background-color: #68CAFB;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     padding-left: 10px !important;
@@ -62,6 +65,7 @@ body{
 
 .hero-learnmore:hover{
     background-color: #68CAFB;
+    width: 200px;
 }
 
 .hero-getintouch{
@@ -74,6 +78,7 @@ body{
 
 .hero-getintouch:hover{
     background-color: #1b2145;
+    width: 200px;
 }
 
 
