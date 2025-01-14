@@ -235,3 +235,32 @@ a {
     height: 50px;
   }
 
+  /*ABOUT HTML STYLE*/
+
+.about-hero-container {
+    padding-top: 20px;
+    background-image: url(assets/heroImgAbout.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.about-hero-container::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1b214581;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+
+  /*ABOUT HTML STYLE*/
+
+
