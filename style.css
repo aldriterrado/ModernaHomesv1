@@ -254,7 +254,7 @@ a {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #1b214581;
+    background-color: #1b2145d7;
     position: absolute;
     z-index: -1;
     
@@ -328,12 +328,39 @@ a {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #1b214581;
+    background-color: #1b2145d7;
     position: absolute;
     z-index: -1;
     
 }
 
 /*FAQS HTML STYLE*/
+
+/*CONTACT HTML STYLE*/
+
+.contact-hero-container {
+    padding-top: 20px;
+    background-image: url(assets/heroImgContact.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.contact-hero-container::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1b2145d7;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+/*CONTACT HTML STYLE*/
 
 
