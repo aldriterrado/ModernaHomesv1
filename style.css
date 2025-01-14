@@ -361,6 +361,33 @@ a {
     
 }
 
+.detail-container{
+    width: 90%;
+    height: 150px;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 15px;
+}
+
+.img-contact {
+    background-color: #1b214525;
+    height: 80px;
+    border-radius: 10px;
+
+}
+
+.message-container{
+    width: 100%;
+    height: auto;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 15px;
+}
+
+
+
 /*CONTACT HTML STYLE*/
 
 
