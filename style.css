@@ -307,6 +307,33 @@ a {
 
 
 
-  /*ABOUT HTML STYLE*/
+/*ABOUT HTML STYLE*/
+
+/*FAQS HTML STYLE*/
+
+.faqs-hero-container {
+    padding-top: 20px;
+    background-image: url(assets/heroImgFaqs.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.faqs-hero-container::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1b214581;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+/*FAQS HTML STYLE*/
 
 
