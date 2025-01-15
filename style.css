@@ -391,3 +391,23 @@ a {
 /*CONTACT HTML STYLE*/
 
 
+/*PROJECT HTML STYLE*/
+
+.project-main-container {
+    width: 100%;
+    height: 400px;
+    background-color: #1B2145;
+    border: solid;
+    border-width: 15px;
+    border-color: rgb(255, 255, 255);
+}
+
+.img-project {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*PROJECT HTML STYLE*/
+
+
