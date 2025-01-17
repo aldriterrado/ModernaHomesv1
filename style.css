@@ -9,7 +9,7 @@ body{
 }
 
 .navbar-brand img{
-    height: 120px;
+    height: 150px;
 }
 
 a {
@@ -406,6 +406,23 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.foot-logo {
+    mix-blend-mode: multiply;
+    height: 100px;
+}
+
+.footerBtn{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #1B2145;
+    transition: 0.5s ease;
+}
+
+.footerBtn:hover{
+    background-color: #68CAFB;
 }
 
 /*PROJECT HTML STYLE*/
